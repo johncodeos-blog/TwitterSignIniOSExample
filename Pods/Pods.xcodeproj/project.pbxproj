@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006542C7EFFEF98710EE862FB0420C2A /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E5434B183BE4ACADFC632951356456 /* SwifterSavedSearches.swift */; };
+		0FBAF8ABEC7807D9924A78BFB55382E9 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425C077B05701221CE8844AEDB4D2AE2 /* SwifterLists.swift */; };
+		16C606D7125593213A783F0AE328330B /* Operator++.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC702AE80C25BC46DE7AC750FEC047 /* Operator++.swift */; };
+		1A2DE700EA623A0EC531294D4273A4AE /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F12D4250415175C18CBC22A62C1DF /* SwifterPlaces.swift */; };
+		20E66BCC43EBFB8D0AAB99B8534F9DCE /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6089246AE0E4D1A6F92A3D408964CC5E /* SwifterTrends.swift */; };
+		212BD8297E1B4BC5510A4187B22AFA3D /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C92858064913FE72092EA2239FAC5 /* SwifterUsers.swift */; };
+		2373B98879FE453A34E1AAF067F5EF57 /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476F2638AB4CA418FA75B0C1F97CA24F /* SwifterCredential.swift */; };
+		2E76E79857A3310A51AA680562FDD280 /* Dictionary++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2E98B5274D9A545D8E930589CDDDA /* Dictionary++.swift */; };
+		2E98783495625562670BF06F6A63F453 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDED36383F678DED40BAFFA17273CFF /* SwifterSpam.swift */; };
+		311B5E9601335CAF0AE7A068E76F742C /* Int++.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70F09B408216CBD7F147A8150FBD261 /* Int++.swift */; };
+		37F91E38CB75B5B129FEC8FB9C5521F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		386B356F52A1F62AD4FA35C2D7F889BB /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA32D23EDF9B75A3CB214FA2A7FB84D /* SwifterAppOnlyClient.swift */; };
+		397F932D5C982049021AA068D5EB9831 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144F9553D9F789CA02D648899935D7A1 /* SwifterHelp.swift */; };
+		406F61EC1C2CEF1E44DF33BAC52DCF8E /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6EDCF2D3B634045367DCE9FFD95DD /* SwifterTweets.swift */; };
+		5707958BEE060EE091359E0DE62C8D43 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B6EE073B0D09316EE23B5012239CC /* SwifterHTTPRequest.swift */; };
+		5E8633DA98898D5819BA086A7710D469 /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8625712351703DE6B95AE2B14C76E5AF /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628B17AEEF0B8B108B56A7926B2E7955 /* SwifterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E6CBD976EAC423D88BB77C6608A5E7 /* SwifterError.swift */; };
+		659281BA46B55CEB6DB57676E8283CF1 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DD3D44295F4AB77218A5E8D10B1E54 /* JSON.swift */; };
+		68E6627F23E2F366D7C4A13AD2CF52B7 /* Pods-TwitterSignInExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B555AA5A62DE0EDB6B0A8EA178C86B /* Pods-TwitterSignInExample-dummy.m */; };
+		742795A0FE50E8E60B7159E59FFEB2DB /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326442F479E0C092758F878A400EA12 /* SwifterMessages.swift */; };
+		84A9B5EBA811ABCCE5FE52C02420A27F /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF91E6A1322C284A8C37C48E2117D76 /* SwifterSearch.swift */; };
+		84F4B2A3BECAA0540441F5BDA55435E3 /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7464C21BB393317516B46B2E5253EFCE /* Swifter-dummy.m */; };
+		8D81BAA178AD531226AA018AA00B1F75 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E372114F2D6FCB52CEB6B31727E5BC /* SwifterOAuthClient.swift */; };
+		91B4F62A484E6CFF12D52A70CC330FB8 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88563B90920EBB2E74C2B0DFC19F60CD /* HMAC.swift */; };
+		92B0A3E6243D92594FBB3E5199BA6681 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C3446A3B4ABD71D16914BE3EFFABDD /* SwifterAuth.swift */; };
+		9C7D49D05AB594A82EC05E98DDBC0B55 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A172CB3834196B9E99CFE40796104B7 /* Utils.swift */; };
+		A1FE8F52D9549224E6669F320001EB5B /* URL++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741A47CA42C62E7879C7FECC963E9985 /* URL++.swift */; };
+		A4C27E33CFA7020DCF2A7D2927AD3395 /* String++.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC5893F1FDA659E8C869B8EB5A00BB /* String++.swift */; };
+		AC877BF59A50DAA312FAF5525FC18FE3 /* Scanner++.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0361D50180CE8469AF2019FC7E5594 /* Scanner++.swift */; };
+		B3A678F3C716F072C5931E900205CE5F /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97535931610E615109FB6E11F94976E5 /* SHA1.swift */; };
+		B8669F34C076873A3DC69D754898CB37 /* Pods-TwitterSignInExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB707FD42F8B24FEE709F6FF9503E3D /* Pods-TwitterSignInExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C113459B8D4C86D0D65F0BB2EF941ED2 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F789E533B7B5BAFB631457F373FEA /* SwifterFavorites.swift */; };
+		C7F9CBAC45A0E5477AEE342800E2A8C5 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64B35AC18AEFECF31914925D20CD41 /* SwifterSuggested.swift */; };
+		D4B84237CC1198804953038631E69836 /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE209F92ED105EE3A4A4204B2A61426 /* SwifterAccountsClient.swift */; };
+		D8C70D58BAC6549A79BAA3D66DCF9408 /* Data++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC916914E26D39023B5E650F5F312C5 /* Data++.swift */; };
+		DEF507E5245F088F447D89F65A55A67E /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA493C2D99F5F448D9DB6E814A0DB8 /* SwifterFollowers.swift */; };
+		E000B6C327A7C12E2DB13B460A0F1668 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77952C5A71C084F2D94C9F3D34E1EBB /* SwifterClientProtocol.swift */; };
+		E0E542E3417576BD4A0C30D23EF1379C /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17BB0526FFA73CA8EEDAA2DD98C3F87 /* SwifterTimelines.swift */; };
+		E2F3314E684722F630ECADABA0165EF8 /* SwifterGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60F3D822C9F2E747079AA08E67A67C1 /* SwifterGIF.swift */; };
+		E6B294B7F7BF249619F6FAC27E801DB4 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19784265582F6F5C8EF475FDB10D0E /* Swifter.swift */; };
+		EE81964191F6BA82B087189545B8AE61 /* SwifterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382AC240EC31D5C924E9805845027388 /* SwifterTag.swift */; };
+		FCDFD776D778875CE850C61DEA27F50D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79ABB2D1589A26E2BC1064115859FCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA65059E808391E31616CB3E015A6B24;
+			remoteInfo = Swifter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB707FD42F8B24FEE709F6FF9503E3D /* Pods-TwitterSignInExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterSignInExample-umbrella.h"; sourceTree = "<group>"; };
+		144F9553D9F789CA02D648899935D7A1 /* SwifterHelp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterHelp.swift; path = Sources/SwifterHelp.swift; sourceTree = "<group>"; };
+		14E372114F2D6FCB52CEB6B31727E5BC /* SwifterOAuthClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterOAuthClient.swift; path = Sources/SwifterOAuthClient.swift; sourceTree = "<group>"; };
+		1530AD90F63DA2343BAB930B15BBF7B9 /* Swifter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swifter-Info.plist"; sourceTree = "<group>"; };
+		1A172CB3834196B9E99CFE40796104B7 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		1FDED36383F678DED40BAFFA17273CFF /* SwifterSpam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSpam.swift; path = Sources/SwifterSpam.swift; sourceTree = "<group>"; };
+		2AFA493C2D99F5F448D9DB6E814A0DB8 /* SwifterFollowers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterFollowers.swift; path = Sources/SwifterFollowers.swift; sourceTree = "<group>"; };
+		2E19784265582F6F5C8EF475FDB10D0E /* Swifter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swifter.swift; path = Sources/Swifter.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32CBB5660EF403321552193392EC97DF /* Swifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifter.modulemap; sourceTree = "<group>"; };
+		382AC240EC31D5C924E9805845027388 /* SwifterTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTag.swift; path = Sources/SwifterTag.swift; sourceTree = "<group>"; };
+		425C077B05701221CE8844AEDB4D2AE2 /* SwifterLists.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterLists.swift; path = Sources/SwifterLists.swift; sourceTree = "<group>"; };
+		475A4AAC49FB6E106BE372CC2EE8CA73 /* Swifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.release.xcconfig; sourceTree = "<group>"; };
+		476F2638AB4CA418FA75B0C1F97CA24F /* SwifterCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterCredential.swift; path = Sources/SwifterCredential.swift; sourceTree = "<group>"; };
+		4EC916914E26D39023B5E650F5F312C5 /* Data++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data++.swift"; path = "Sources/Data++.swift"; sourceTree = "<group>"; };
+		512EF0F381C3FF105401AF2B411E3B79 /* Pods-TwitterSignInExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterSignInExample.modulemap"; sourceTree = "<group>"; };
+		575374C11937939936D5F57CC6C14047 /* Pods-TwitterSignInExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterSignInExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E2A625277CE10C86427EE01E0DD5F3C /* Pods-TwitterSignInExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterSignInExample-Info.plist"; sourceTree = "<group>"; };
+		5EF91E6A1322C284A8C37C48E2117D76 /* SwifterSearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSearch.swift; path = Sources/SwifterSearch.swift; sourceTree = "<group>"; };
+		6089246AE0E4D1A6F92A3D408964CC5E /* SwifterTrends.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTrends.swift; path = Sources/SwifterTrends.swift; sourceTree = "<group>"; };
+		6BA6EDCF2D3B634045367DCE9FFD95DD /* SwifterTweets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTweets.swift; path = Sources/SwifterTweets.swift; sourceTree = "<group>"; };
+		741A47CA42C62E7879C7FECC963E9985 /* URL++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL++.swift"; path = "Sources/URL++.swift"; sourceTree = "<group>"; };
+		7464C21BB393317516B46B2E5253EFCE /* Swifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swifter-dummy.m"; sourceTree = "<group>"; };
+		79E5434B183BE4ACADFC632951356456 /* SwifterSavedSearches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSavedSearches.swift; path = Sources/SwifterSavedSearches.swift; sourceTree = "<group>"; };
+		7F8C9FECE6128DFEDDE20CEAA6F7F659 /* Swifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.debug.xcconfig; sourceTree = "<group>"; };
+		80D2E98B5274D9A545D8E930589CDDDA /* Dictionary++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary++.swift"; path = "Sources/Dictionary++.swift"; sourceTree = "<group>"; };
+		8625712351703DE6B95AE2B14C76E5AF /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
+		88563B90920EBB2E74C2B0DFC19F60CD /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
+		97535931610E615109FB6E11F94976E5 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/SHA1.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FFF86075A781F25A3C4ECD3C887AA1E /* Pods-TwitterSignInExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterSignInExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EC5893F1FDA659E8C869B8EB5A00BB /* String++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String++.swift"; path = "Sources/String++.swift"; sourceTree = "<group>"; };
+		ADCD346E741F40BA864234D68F063D95 /* Swifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-prefix.pch"; sourceTree = "<group>"; };
+		AE1F12D4250415175C18CBC22A62C1DF /* SwifterPlaces.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterPlaces.swift; path = Sources/SwifterPlaces.swift; sourceTree = "<group>"; };
+		AFEF5AFE71BB3EE6F67E62AFC7DA4C95 /* Pods-TwitterSignInExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterSignInExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2B132D19DBC9C2D1733EEE55B9BF8A7 /* Pods-TwitterSignInExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterSignInExample-frameworks.sh"; sourceTree = "<group>"; };
+		BC6C92858064913FE72092EA2239FAC5 /* SwifterUsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterUsers.swift; path = Sources/SwifterUsers.swift; sourceTree = "<group>"; };
+		C1BC702AE80C25BC46DE7AC750FEC047 /* Operator++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Operator++.swift"; path = "Sources/Operator++.swift"; sourceTree = "<group>"; };
+		C4B555AA5A62DE0EDB6B0A8EA178C86B /* Pods-TwitterSignInExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterSignInExample-dummy.m"; sourceTree = "<group>"; };
+		C77952C5A71C084F2D94C9F3D34E1EBB /* SwifterClientProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterClientProtocol.swift; path = Sources/SwifterClientProtocol.swift; sourceTree = "<group>"; };
+		D326442F479E0C092758F878A400EA12 /* SwifterMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterMessages.swift; path = Sources/SwifterMessages.swift; sourceTree = "<group>"; };
+		D7DD3D44295F4AB77218A5E8D10B1E54 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		D80B6EE073B0D09316EE23B5012239CC /* SwifterHTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterHTTPRequest.swift; path = Sources/SwifterHTTPRequest.swift; sourceTree = "<group>"; };
+		DCA32D23EDF9B75A3CB214FA2A7FB84D /* SwifterAppOnlyClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAppOnlyClient.swift; path = Sources/SwifterAppOnlyClient.swift; sourceTree = "<group>"; };
+		DE0361D50180CE8469AF2019FC7E5594 /* Scanner++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Scanner++.swift"; path = "Sources/Scanner++.swift"; sourceTree = "<group>"; };
+		E60F3D822C9F2E747079AA08E67A67C1 /* SwifterGIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterGIF.swift; path = Sources/SwifterGIF.swift; sourceTree = "<group>"; };
+		E70F09B408216CBD7F147A8150FBD261 /* Int++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int++.swift"; path = "Sources/Int++.swift"; sourceTree = "<group>"; };
+		E7E98885A0FEF49E9EE8975449969BEB /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swifter.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C3446A3B4ABD71D16914BE3EFFABDD /* SwifterAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAuth.swift; path = Sources/SwifterAuth.swift; sourceTree = "<group>"; };
+		E9E6CBD976EAC423D88BB77C6608A5E7 /* SwifterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterError.swift; path = Sources/SwifterError.swift; sourceTree = "<group>"; };
+		EE29F9B98775A61B6C137DD826076440 /* Pods-TwitterSignInExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterSignInExample.release.xcconfig"; sourceTree = "<group>"; };
+		F17BB0526FFA73CA8EEDAA2DD98C3F87 /* SwifterTimelines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterTimelines.swift; path = Sources/SwifterTimelines.swift; sourceTree = "<group>"; };
+		F52F789E533B7B5BAFB631457F373FEA /* SwifterFavorites.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterFavorites.swift; path = Sources/SwifterFavorites.swift; sourceTree = "<group>"; };
+		FC40DDE2C22CB5F0940DA1E73346A819 /* Pods_TwitterSignInExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterSignInExample.framework; path = "Pods-TwitterSignInExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE209F92ED105EE3A4A4204B2A61426 /* SwifterAccountsClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterAccountsClient.swift; path = Sources/SwifterAccountsClient.swift; sourceTree = "<group>"; };
+		FE64B35AC18AEFECF31914925D20CD41 /* SwifterSuggested.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSuggested.swift; path = Sources/SwifterSuggested.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21128C7E49EF7BB6C688C465B31EA06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDFD776D778875CE850C61DEA27F50D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2C19385756AC953EE124526558DE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F91E38CB75B5B129FEC8FB9C5521F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB28CE7C8777C9C923E3E6A2D9CB5BD /* Pods-TwitterSignInExample */ = {
+			isa = PBXGroup;
+			children = (
+				512EF0F381C3FF105401AF2B411E3B79 /* Pods-TwitterSignInExample.modulemap */,
+				575374C11937939936D5F57CC6C14047 /* Pods-TwitterSignInExample-acknowledgements.markdown */,
+				AFEF5AFE71BB3EE6F67E62AFC7DA4C95 /* Pods-TwitterSignInExample-acknowledgements.plist */,
+				C4B555AA5A62DE0EDB6B0A8EA178C86B /* Pods-TwitterSignInExample-dummy.m */,
+				B2B132D19DBC9C2D1733EEE55B9BF8A7 /* Pods-TwitterSignInExample-frameworks.sh */,
+				5E2A625277CE10C86427EE01E0DD5F3C /* Pods-TwitterSignInExample-Info.plist */,
+				0DB707FD42F8B24FEE709F6FF9503E3D /* Pods-TwitterSignInExample-umbrella.h */,
+				9FFF86075A781F25A3C4ECD3C887AA1E /* Pods-TwitterSignInExample.debug.xcconfig */,
+				EE29F9B98775A61B6C137DD826076440 /* Pods-TwitterSignInExample.release.xcconfig */,
+			);
+			name = "Pods-TwitterSignInExample";
+			path = "Target Support Files/Pods-TwitterSignInExample";
+			sourceTree = "<group>";
+		};
+		22216B48DC5C67DF8447473C5C09F0EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CB28CE7C8777C9C923E3E6A2D9CB5BD /* Pods-TwitterSignInExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5975384E7EEE55E25C1B1A20BE03F74F /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				4EC916914E26D39023B5E650F5F312C5 /* Data++.swift */,
+				80D2E98B5274D9A545D8E930589CDDDA /* Dictionary++.swift */,
+				88563B90920EBB2E74C2B0DFC19F60CD /* HMAC.swift */,
+				E70F09B408216CBD7F147A8150FBD261 /* Int++.swift */,
+				D7DD3D44295F4AB77218A5E8D10B1E54 /* JSON.swift */,
+				C1BC702AE80C25BC46DE7AC750FEC047 /* Operator++.swift */,
+				DE0361D50180CE8469AF2019FC7E5594 /* Scanner++.swift */,
+				97535931610E615109FB6E11F94976E5 /* SHA1.swift */,
+				A4EC5893F1FDA659E8C869B8EB5A00BB /* String++.swift */,
+				2E19784265582F6F5C8EF475FDB10D0E /* Swifter.swift */,
+				FCE209F92ED105EE3A4A4204B2A61426 /* SwifterAccountsClient.swift */,
+				DCA32D23EDF9B75A3CB214FA2A7FB84D /* SwifterAppOnlyClient.swift */,
+				E8C3446A3B4ABD71D16914BE3EFFABDD /* SwifterAuth.swift */,
+				C77952C5A71C084F2D94C9F3D34E1EBB /* SwifterClientProtocol.swift */,
+				476F2638AB4CA418FA75B0C1F97CA24F /* SwifterCredential.swift */,
+				E9E6CBD976EAC423D88BB77C6608A5E7 /* SwifterError.swift */,
+				F52F789E533B7B5BAFB631457F373FEA /* SwifterFavorites.swift */,
+				2AFA493C2D99F5F448D9DB6E814A0DB8 /* SwifterFollowers.swift */,
+				E60F3D822C9F2E747079AA08E67A67C1 /* SwifterGIF.swift */,
+				144F9553D9F789CA02D648899935D7A1 /* SwifterHelp.swift */,
+				D80B6EE073B0D09316EE23B5012239CC /* SwifterHTTPRequest.swift */,
+				425C077B05701221CE8844AEDB4D2AE2 /* SwifterLists.swift */,
+				D326442F479E0C092758F878A400EA12 /* SwifterMessages.swift */,
+				14E372114F2D6FCB52CEB6B31727E5BC /* SwifterOAuthClient.swift */,
+				AE1F12D4250415175C18CBC22A62C1DF /* SwifterPlaces.swift */,
+				79E5434B183BE4ACADFC632951356456 /* SwifterSavedSearches.swift */,
+				5EF91E6A1322C284A8C37C48E2117D76 /* SwifterSearch.swift */,
+				1FDED36383F678DED40BAFFA17273CFF /* SwifterSpam.swift */,
+				FE64B35AC18AEFECF31914925D20CD41 /* SwifterSuggested.swift */,
+				382AC240EC31D5C924E9805845027388 /* SwifterTag.swift */,
+				F17BB0526FFA73CA8EEDAA2DD98C3F87 /* SwifterTimelines.swift */,
+				6089246AE0E4D1A6F92A3D408964CC5E /* SwifterTrends.swift */,
+				6BA6EDCF2D3B634045367DCE9FFD95DD /* SwifterTweets.swift */,
+				BC6C92858064913FE72092EA2239FAC5 /* SwifterUsers.swift */,
+				741A47CA42C62E7879C7FECC963E9985 /* URL++.swift */,
+				1A172CB3834196B9E99CFE40796104B7 /* Utils.swift */,
+				DB8F1D5741A9AA7E41DE54A8E4D3827B /* Support Files */,
+			);
+			name = Swifter;
+			path = Swifter;
+			sourceTree = "<group>";
+		};
+		9D807A64D560D04DDCADD0459AFAD836 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5975384E7EEE55E25C1B1A20BE03F74F /* Swifter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A676B75B872C844B37F9259C5554EDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC40DDE2C22CB5F0940DA1E73346A819 /* Pods_TwitterSignInExample.framework */,
+				E7E98885A0FEF49E9EE8975449969BEB /* Swifter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9D807A64D560D04DDCADD0459AFAD836 /* Pods */,
+				A676B75B872C844B37F9259C5554EDC6 /* Products */,
+				22216B48DC5C67DF8447473C5C09F0EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8F1D5741A9AA7E41DE54A8E4D3827B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32CBB5660EF403321552193392EC97DF /* Swifter.modulemap */,
+				7464C21BB393317516B46B2E5253EFCE /* Swifter-dummy.m */,
+				1530AD90F63DA2343BAB930B15BBF7B9 /* Swifter-Info.plist */,
+				ADCD346E741F40BA864234D68F063D95 /* Swifter-prefix.pch */,
+				8625712351703DE6B95AE2B14C76E5AF /* Swifter-umbrella.h */,
+				7F8C9FECE6128DFEDDE20CEAA6F7F659 /* Swifter.debug.xcconfig */,
+				475A4AAC49FB6E106BE372CC2EE8CA73 /* Swifter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swifter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56B0E984292BAFB36082B8DB7D815368 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8633DA98898D5819BA086A7710D469 /* Swifter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1BF292B4606284746BCA75AEB254F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8669F34C076873A3DC69D754898CB37 /* Pods-TwitterSignInExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		846BC120BB9B6A0A31BF1F961AF073BE /* Pods-TwitterSignInExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEA80E2A088B64AB1DA0CE4D9AFDB03 /* Build configuration list for PBXNativeTarget "Pods-TwitterSignInExample" */;
+			buildPhases = (
+				AE1BF292B4606284746BCA75AEB254F9 /* Headers */,
+				B09D9BE6F04F172B248A72A82C27D95B /* Sources */,
+				4B2C19385756AC953EE124526558DE7D /* Frameworks */,
+				DE98D02966C616E2F0F3F5E283A5185D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BDADBFB8D9FB6D3692B1EFB249F1A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterSignInExample";
+			productName = "Pods-TwitterSignInExample";
+			productReference = FC40DDE2C22CB5F0940DA1E73346A819 /* Pods_TwitterSignInExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA65059E808391E31616CB3E015A6B24 /* Swifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B034C4E07A2C3A6CA032DD1D16577E6B /* Build configuration list for PBXNativeTarget "Swifter" */;
+			buildPhases = (
+				56B0E984292BAFB36082B8DB7D815368 /* Headers */,
+				09FCBF2FE4EC420EC585BCB462A4FFA2 /* Sources */,
+				21128C7E49EF7BB6C688C465B31EA06E /* Frameworks */,
+				57776DC1D6D0C6A6E98E135EDB23C944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifter;
+			productName = Swifter;
+			productReference = E7E98885A0FEF49E9EE8975449969BEB /* Swifter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A676B75B872C844B37F9259C5554EDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846BC120BB9B6A0A31BF1F961AF073BE /* Pods-TwitterSignInExample */,
+				CA65059E808391E31616CB3E015A6B24 /* Swifter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57776DC1D6D0C6A6E98E135EDB23C944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE98D02966C616E2F0F3F5E283A5185D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FCBF2FE4EC420EC585BCB462A4FFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C70D58BAC6549A79BAA3D66DCF9408 /* Data++.swift in Sources */,
+				2E76E79857A3310A51AA680562FDD280 /* Dictionary++.swift in Sources */,
+				91B4F62A484E6CFF12D52A70CC330FB8 /* HMAC.swift in Sources */,
+				311B5E9601335CAF0AE7A068E76F742C /* Int++.swift in Sources */,
+				659281BA46B55CEB6DB57676E8283CF1 /* JSON.swift in Sources */,
+				16C606D7125593213A783F0AE328330B /* Operator++.swift in Sources */,
+				AC877BF59A50DAA312FAF5525FC18FE3 /* Scanner++.swift in Sources */,
+				B3A678F3C716F072C5931E900205CE5F /* SHA1.swift in Sources */,
+				A4C27E33CFA7020DCF2A7D2927AD3395 /* String++.swift in Sources */,
+				84F4B2A3BECAA0540441F5BDA55435E3 /* Swifter-dummy.m in Sources */,
+				E6B294B7F7BF249619F6FAC27E801DB4 /* Swifter.swift in Sources */,
+				D4B84237CC1198804953038631E69836 /* SwifterAccountsClient.swift in Sources */,
+				386B356F52A1F62AD4FA35C2D7F889BB /* SwifterAppOnlyClient.swift in Sources */,
+				92B0A3E6243D92594FBB3E5199BA6681 /* SwifterAuth.swift in Sources */,
+				E000B6C327A7C12E2DB13B460A0F1668 /* SwifterClientProtocol.swift in Sources */,
+				2373B98879FE453A34E1AAF067F5EF57 /* SwifterCredential.swift in Sources */,
+				628B17AEEF0B8B108B56A7926B2E7955 /* SwifterError.swift in Sources */,
+				C113459B8D4C86D0D65F0BB2EF941ED2 /* SwifterFavorites.swift in Sources */,
+				DEF507E5245F088F447D89F65A55A67E /* SwifterFollowers.swift in Sources */,
+				E2F3314E684722F630ECADABA0165EF8 /* SwifterGIF.swift in Sources */,
+				397F932D5C982049021AA068D5EB9831 /* SwifterHelp.swift in Sources */,
+				5707958BEE060EE091359E0DE62C8D43 /* SwifterHTTPRequest.swift in Sources */,
+				0FBAF8ABEC7807D9924A78BFB55382E9 /* SwifterLists.swift in Sources */,
+				742795A0FE50E8E60B7159E59FFEB2DB /* SwifterMessages.swift in Sources */,
+				8D81BAA178AD531226AA018AA00B1F75 /* SwifterOAuthClient.swift in Sources */,
+				1A2DE700EA623A0EC531294D4273A4AE /* SwifterPlaces.swift in Sources */,
+				006542C7EFFEF98710EE862FB0420C2A /* SwifterSavedSearches.swift in Sources */,
+				84A9B5EBA811ABCCE5FE52C02420A27F /* SwifterSearch.swift in Sources */,
+				2E98783495625562670BF06F6A63F453 /* SwifterSpam.swift in Sources */,
+				C7F9CBAC45A0E5477AEE342800E2A8C5 /* SwifterSuggested.swift in Sources */,
+				EE81964191F6BA82B087189545B8AE61 /* SwifterTag.swift in Sources */,
+				E0E542E3417576BD4A0C30D23EF1379C /* SwifterTimelines.swift in Sources */,
+				20E66BCC43EBFB8D0AAB99B8534F9DCE /* SwifterTrends.swift in Sources */,
+				406F61EC1C2CEF1E44DF33BAC52DCF8E /* SwifterTweets.swift in Sources */,
+				212BD8297E1B4BC5510A4187B22AFA3D /* SwifterUsers.swift in Sources */,
+				A1FE8F52D9549224E6669F320001EB5B /* URL++.swift in Sources */,
+				9C7D49D05AB594A82EC05E98DDBC0B55 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09D9BE6F04F172B248A72A82C27D95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6627F23E2F366D7C4A13AD2CF52B7 /* Pods-TwitterSignInExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1BDADBFB8D9FB6D3692B1EFB249F1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swifter;
+			target = CA65059E808391E31616CB3E015A6B24 /* Swifter */;
+			targetProxy = 79ABB2D1589A26E2BC1064115859FCC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		37EA0814CC1DAFAE348426E85451F1FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFF86075A781F25A3C4ECD3C887AA1E /* Pods-TwitterSignInExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterSignInExample/Pods-TwitterSignInExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterSignInExample/Pods-TwitterSignInExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CDC14D8703928451742FDB5CF5204CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE29F9B98775A61B6C137DD826076440 /* Pods-TwitterSignInExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterSignInExample/Pods-TwitterSignInExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterSignInExample/Pods-TwitterSignInExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92C68A17484C4FD6775D740824CE13C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475A4AAC49FB6E106BE372CC2EE8CA73 /* Swifter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		998259F9BD7F7243608670AF14B08E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8C9FECE6128DFEDDE20CEAA6F7F659 /* Swifter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEA80E2A088B64AB1DA0CE4D9AFDB03 /* Build configuration list for PBXNativeTarget "Pods-TwitterSignInExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EA0814CC1DAFAE348426E85451F1FE /* Debug */,
+				6CDC14D8703928451742FDB5CF5204CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B034C4E07A2C3A6CA032DD1D16577E6B /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998259F9BD7F7243608670AF14B08E56 /* Debug */,
+				92C68A17484C4FD6775D740824CE13C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
